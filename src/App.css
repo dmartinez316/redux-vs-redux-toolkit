@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(34, 34, 34);
+}
+
+button {
+  font-size: calc(10px + 1vmin);
+}
+.title {
+  margin-bottom: 1rem;
+}
+
+.examples-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.redux-example-container {
+  width: 45%;
+}
+.rtk-example-container {
+  width: 45%;
+}
